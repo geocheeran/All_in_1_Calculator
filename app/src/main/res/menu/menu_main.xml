@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="geo.calculatorapp.MainActivity" >
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/sharethis"
+        android:title="Share"
+        app:showAsAction="always" />
+    <!--<item android:title="ഭാഷ മാറ്റുക"-->
+    <!--android:id="@+id/lang"/>-->
+    <item android:id="@+id/action_feedback"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_about"
+        android:title="About Us" />
+
+
+</menu>
